@@ -1,0 +1,69 @@
+
+#main-container {
+  width: 50vw !important;
+  padding: 8px 8px 0px 8px;
+  border: 2px solid rgb(0, 81, 255);
+  border-radius: 4px;  
+  margin: auto;
+  margin-top: 40px;
+  font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+}
+
+#outpuSQL{
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+.c-left {
+  float: left;
+}
+
+.c-right {
+  float: right;
+}
+
+.c-hidden {
+  position: absolute !important;
+  top: -50000px !important;
+}
+
+.c-display-none {
+  display: none !important;
+}
+
+.c-button {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(0, 81, 255);
+  ;
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+  background: rgb(0, 81, 255);
+  border: 1px solid rgb(0, 81, 255);
+  color: #FFF;
+  padding: 5px 0px 2px 0px !important;
+  display: inline-block;
+  width: 100%;
+  transition: .2s;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.c-button span {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#spnVersion{
+  float: right;
+}
+
+.c-button-ico{
+  width: 20px;
+  display: inline-block;
+}

@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "ABD Extension",
+  "description": "Extensão para agilizar ABD VALE - TCS",
+  "version": "1.3.3",
+  "browser_action": {
+    "default_icon": "img/icon128.png",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "128": "img/icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "alarms",
+    "storage",
+    "ftp://*/",
+    "wss://*/",
+    "activeTab",
+    "file://*/",
+    "http://*/",
+    "https://*/",
+    "activeTab",
+    "downloads",
+    "contextMenus",
+    "notifications",
+    "clipboardRead",
+    "clipboardWrite",
+    "unlimitedStorage"
+  ]
+}
